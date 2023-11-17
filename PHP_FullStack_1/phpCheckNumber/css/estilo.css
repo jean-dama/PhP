@@ -1,0 +1,83 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: linear-gradient(90deg, rgb(24, 76, 78) 0%, rgb(42, 104, 133) 35%, rgb(108, 184, 199) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+header {
+    color: #ffffff;
+    text-align: center;
+}
+section {
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50vw;
+    margin: auto;
+    box-shadow: 5px 5px 15px #2b2a2a;
+    height: 50vh;
+}
+footer {
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+}
+img {
+    max-width: 50vw;
+    height: 80vh;
+}
+label {
+    font-size: 16px;
+    background: linear-gradient(90deg, rgb(35, 82, 236) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #000;
+}
+button#submit {
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    background: rgb(42, 104, 133) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 10vw;
+    box-shadow: 1px 1px 1px #000;
+}
+button#submit:hover { 
+    background:rgba(0,212,255,1);
+}
+
+input {
+    border-radius: 10px;
+    height: 3vh;
+}
+#titulo {
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgb(24, 76, 78) 0%, rgb(42, 104, 133) 35%, rgb(108, 184, 199) 100%);
+    width: 12vw;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    margin-left: 37%;
+    box-shadow: 1px 1px 1px #000;
+}
+#header {
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgb(24, 76, 78) 0%, rgb(42, 104, 133) 35%, rgb(108, 184, 199) 100%);
+    width: 25vw;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    margin-left: 37%;
+    box-shadow: 1px 1px 1px #000;
+}

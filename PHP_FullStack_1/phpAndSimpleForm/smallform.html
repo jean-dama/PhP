@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Dados</h2>
+    </header>
+    <section>
+        <form action="act.php" method="get">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome"/>
+                <label for="sobnome">Sobre Nome</label>
+                <input type="text" name="sobnome" id="sobnome" placeholder="Sobre Nome"/>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="email@mail.com" />
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone" placeholder="(00)00000-0000"/>
+            </div>  
+            <div>
+                <textarea name="text" id="text">Deixe sua mensagem!</textarea>
+            </div>
+            <input type="submit" id="submit" value="Enviar" />
+        </form>
+    </section>
+    <footer>
+        <div>
+            <p>&copy;Jean Damaceno</p>
+        </div>
+    </footer>
+</body>
+</html>
