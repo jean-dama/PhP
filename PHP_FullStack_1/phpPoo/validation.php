@@ -1,5 +1,4 @@
 <?php 
-
     require('Validacao');//chamando a classe
 
     if(isset($_POST['submit'])){//validacao de clique no envio
@@ -9,7 +8,6 @@
 
 
     }
-
     class Validacao {//classe de validacao
         private $dados;//atributos da classe
         private $erro = [];//array
